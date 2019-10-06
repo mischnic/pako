@@ -1,7 +1,9 @@
 {
-  "name": "pako",
+  "name": "@mischnic/pako-es",
   "description": "zlib port to javascript - fast, modularized, with browser support",
   "version": "1.0.10",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "keywords": [
     "zlib",
     "deflate",
@@ -40,5 +42,6 @@
     "uglify-js": "=3.4.8",
     "zlibjs": "^0.3.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "sideEffects": false
 }
