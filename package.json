@@ -1,5 +1,5 @@
 {
-  "name": "@mischnic/pako-es",
+  "name": "@mischnic/pako",
   "description": "zlib port to javascript - fast, modularized, with browser support",
   "version": "1.0.10",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "inflate",
     "gzip"
   ],
-  "homepage": "https://github.com/nodeca/pako",
+  "homepage": "https://github.com/mischnic/pako",
   "contributors": [
     "Andrei Tuputcyn (https://github.com/andr83)",
     "Vitaly Puzrin (https://github.com/puzrin)",
@@ -21,11 +21,11 @@
   ],
   "files": [
     "index.js",
-    "dist/",
+    "es/",
     "lib/"
   ],
   "license": "(MIT AND Zlib)",
-  "repository": "nodeca/pako",
+  "repository": "mischnic/pako",
   "scripts": {
     "test": "make test"
   },
